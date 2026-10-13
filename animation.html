@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            position: relative;
+            animation-name: myAnimation;
+            animation-duration: 4s;
+        }
+        @keyframes myAnimation {
+            0% {background-color: aqua;left: 0px;top: 0px;}
+            25% {background-color: rgb(27, 231, 132);left: 200px;top: 0px;}
+            50% {background-color: rgb(175, 20, 20);left: 200px;top: 200px;}
+            75% {background-color: rgb(139, 16, 200);left: 0px;top: 200px;}
+            100% {background-color: rgb(212, 131, 10);left: 0px;top: 0px;}
+        }
+    </style>
+</head>
+<body>
+    <h1>css animation - thêm animation cho web</h1>
+    <div class="box"></div>
+</body>
+</html> 
